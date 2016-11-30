@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace MChanger
 {
-    public partial class Form1 : Form
+    public partial class MChanger : Form
     {
-        public Form1()
+        public MChanger()
         {
             InitializeComponent();
+        }
+
+        private void MChanger_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
